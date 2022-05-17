@@ -1,44 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron&family=Koulen&display=swap');
+
 #content {
     max-width: 1600px;
     margin: auto 0;
 }
 body {
     background-color: #C0FDFB;
+    font-family: Koulen;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: white;
 }
 .home-title {
-    color:white;
+    color:#FF8360;
+    font-size: 3em;
+    font-family: Koulen;
+    margin-top: 10px
 }
-nav {
-    color: #FF8360;
-}
+
 nav a:hover{
-    background-color: #FF8360;
+    background-color: #64B6AC;
     color: white;
 }
 .book, .join {
-    background-color: #C0FDFB;
-    color: #64B6AC;
+    background-color: #FF8360;
+    color: white;
+    font-family: Koulen;
+    font-size: 2em;
+    padding: 12px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color:#FF8360;
-    color: white;
+    background-color:#64B6AC;
+    color:white;
 }
 h4 {
-    color:#64B6AC;
+    color:#FF8360;
+    padding-bottom: 35px;
+    font-size: 1.2em;
 }
 #background {
     background-color: #64B6AC;
 }
 .msg {
     background-color: #C0FDFB;
+    line-height: 1.5em;
+    padding: 35px;
 }
 nav a {
-    color: #FF8360;
+    color: #64B6AC;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -54,12 +71,20 @@ main section {
 }
 footer {
     background-color: #64B6AC;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .msg h2 {
-    color: #64B6AC;
+    color:#64B6AC;
+    font-size: 4em;
 }
 .msg p {
     color: #64B6AC;
+    font-size: 2em;
+    font-family: Koulen;
+    line-height: 1em;
+    padding-bottom: 30px;
+    padding-top: 15px;
 }
 footer h3 {
     color:#64B6AC;
@@ -78,6 +103,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -85,4 +111,17 @@ footer a:hover {
 }
 h2 {
     color:#FF8360;
+    background-color: #C0FDFB;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15PX;
+}
+.rivers-card, .camping-card, .radipds-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #FF8360;
 }
