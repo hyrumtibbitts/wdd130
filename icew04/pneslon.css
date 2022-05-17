@@ -1,0 +1,48 @@
+
+body {
+    background-color: #fe95bf;
+    text-align: center;
+}
+.nelson{
+    width: 200px;
+}
+p{
+    margin:auto;
+    color: white;
+}
+h3 {
+    color: white;
+    font-weight: 600;
+}
+.education{
+    margin: 25px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.education:hover{
+    color: black;
+}
+
+section{
+    list-style-position:inside;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+    line-height: 1.5em;
+    font-weight: 700;
+}
+p.quote{
+    width: 300px;
+    margin: 1em auto;
+
+    font-size: 2em;
+    color:white;
+}
+p.copy{
+    color: black;
+    margin-left:11em;
+    margin-right:11em;
+    margin-top: .5em;
+}
