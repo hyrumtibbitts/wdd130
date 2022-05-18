@@ -87,13 +87,13 @@ footer {
     padding-top: 15px;
 }
 footer h3 {
-    color:#64B6AC;
+    color:white;
 }
 footer h3 a:hover {
     text-decoration: underline;
 }
 footer a {
-    color:#64B6AC;
+    color:white;
 }
 footer a:hover {
     color:#C0FDFB;
