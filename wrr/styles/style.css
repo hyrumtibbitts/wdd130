@@ -13,6 +13,7 @@ body {
 }
 header {
     background-color: white;
+    width:100%;
 }
 .home-title {
     color:#FF8360;
@@ -24,12 +25,13 @@ header {
 nav a:hover{
     background-color: #64B6AC;
     color: white;
+    border-radius: 10%;
 }
 .book, .join {
     background-color: #FF8360;
     color: white;
     font-family: Koulen;
-    font-size: 2em;
+    font-size: 18px;
     padding: 12px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -53,7 +55,7 @@ h4 {
 }
 nav a {
     color: #64B6AC;
-    text-align: center;
+    text-align:center;
     text-decoration: none;
     padding: 35px;
 }
@@ -76,11 +78,12 @@ footer {
 }
 .msg h2 {
     color:#64B6AC;
-    font-size: 4em;
+    font-size: 50px;
+    line-height: 1em;
 }
 .msg p {
     color: #64B6AC;
-    font-size: 2em;
+    font-size: .8em;
     font-family: Koulen;
     line-height: 1em;
     padding-bottom: 30px;
