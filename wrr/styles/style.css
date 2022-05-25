@@ -91,12 +91,11 @@ footer {
 }
 footer h3 {
     color:white;
-}
-footer h3 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 footer a {
     color:white;
+    text-decoration: none;
 }
 footer a:hover {
     color:#C0FDFB;
