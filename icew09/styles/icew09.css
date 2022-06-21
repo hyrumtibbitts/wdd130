@@ -1,0 +1,14 @@
+.main {
+    display: grid;
+    grid-template-columns: auto 50px 50px 50px auto;
+    grid-template-rows: auto 50px;
+}
+.small {
+    grid-template-columns: 2/5;
+}
+.big {
+    grid-template-columns: 2/5;
+}
+.rivers {
+    padding: 0;
+}
