@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron&family=Koulen&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: auto 0;
+}
+header {
+    background-color: white;
+    width:100%;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.logo {
+    width: 120px;
+}
+nav a:hover{
+    background-color: #64B6AC;
+    color: white;
+    border-radius: 10%;
+}
+body {  
+    background-color: white;
+    font-family: Koulen;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: #64B6AC;
+    text-align:center;
+    text-decoration: none;
+    padding: 45px;
+}
+.rivers {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 10px solid #FF8360;
+    transition: transform.5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#hero {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #FF8360;
+}
+footer {
+    margin-left: 10px;
+}
+footer .social img {
+    padding-top: 15PX;
+}
+footer h3 {
+    color:#FF8360;
+    text-decoration: none;
+}
+footer a {
+    color: #64B6AC;
+    text-decoration: none;
+}
+footer a:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    background-color: #FF8360;
+    color:#C0FDFB;
+}
