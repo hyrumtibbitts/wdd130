@@ -9,7 +9,7 @@ header {
     grid-template-columns: 420px auto auto;
     grid-template-rows: 75px 75px 75px 75px 75px;
     background-color: #eae0cc;
-    border: 5px solid #4e6e58;
+    border: 5px solid #a44a3f;
     border-radius: 30px;
 }
 .logo {
@@ -53,7 +53,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 375px 1fr 150px;
-    background-color: #4e6e58;
+    background-color: #a44a3f;
 }
 #content {
     grid-column: 1/4;
