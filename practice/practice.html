@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .dropbtn {
+      background-color: lightskyblue;
+      color: white;
+      padding: 20px;
+      font-size: 16px;
+      border: 5px solid lightskyblue;
+      border-radius: 10px;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .heading {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        text-align: center;
+        color: white;
+        font-size:2.6em;
+    }
+    .body {
+        text-align: center;
+        background-color: wheat;
+    }
+    
+    .dropdown-content a:hover {background-color: skyblue;}
+    
+    .dropdown:hover .dropdown-content {display: block;
+    text-align: center;}
+    
+    .dropdown:hover .dropbtn {background-color: lightskyblue;}
+    </style>
+</head>
+    <body class="body">
+    
+    <h2 class="heading">Welcome!</h2>
+    <p>View the following weeks curriculum</p>
+    
+    <div class="dropdown">
+      <button class="dropbtn">Breakdown</button>
+      <div class="dropdown-content">
+        <a href="#">Week 1</a>
+        <a href="#">Week 2</a>
+        <a href="#">Week 3</a>
+      </div>
+    </div>
+    
+    </body>
+    </html>
