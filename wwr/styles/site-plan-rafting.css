@@ -1,6 +1,12 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Alike&family=Arvo&family=Oswald:wght@300&family=Outfit:wght@100&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: #E86252;
     --secondary-color: #0F5257;
@@ -59,4 +65,29 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color:var(--nav-hover-background-color);
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(95,52,0,0);
+    padding: 1rem;
+    background-color: var(--accent1-color);
+    color: #000;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+}
+
+main img {
+    float: right;
+}
+
+aside h2 {
+    position: absolute;
+    top:47px;
+    left: 150px;
 }
