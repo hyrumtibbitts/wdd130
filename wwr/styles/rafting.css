@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alike&family=Arvo&family=Oswald:wght@300&family=Outfit:wght@100&display=swap');
+
+
+
+:root {
+    --primary-color: #E86252;
+    --secondary-color: #0F5257;
+    --accent1-color: #5FB49C;
+    --accent2-color: #E2DADB;
+
+    --heading-font: 'Oswald', serif;
+    --paragraph-font: 'Oswald', serif;
+
+    --nav-background-color:var(--accent1-color);
+    --nav-link-color:var(--accent2-color);
+    --nav-hover-link-color:var(--primary-color);
+    --nav-hover-background-color:var(--secondary-color);
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color:var(--secondary-color);
+}
+
+header {
+    padding: 50px;
+    font-size:xx-large;
+}
+
+p {
+    padding:25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
+img { display: block;
+}
+
