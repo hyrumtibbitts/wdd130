@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike&family=Arvo&family=Oswald:wght@300&family=Outfit:wght@100&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+}
+
+main {
+    max-width: 900px;
+}
+
+aside {
+   width: 200px;
+   text-align: center;
+}
+
+aside img {
+    width: 200PX;
+    height: auto;
+}
+
+footer {
+    margin: 10px auto;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 10px;
+    background-color: #bbb;
+}
+
+footer p {
+    text-align: center;
+    font-size: .8rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;   
+}
+
+.indent {
+    padding-left: 2rem;
+}
+
+li {
+    margin-bottom: 20px;
+}
