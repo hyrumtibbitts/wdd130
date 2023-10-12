@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-nav a {
+nav {
     color: white;
     padding: 10px;
     display: block;
