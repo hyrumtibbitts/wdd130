@@ -1,0 +1,13 @@
+fieldset {
+   display: grid;
+   grid-template-columns: 1fr;
+   width: 500px;
+   position: relative;
+   margin: auto;
+}
+
+input {
+    margin: 10px;
+    background-color: rgb(182, 182, 182);
+    border: transparent;
+}
