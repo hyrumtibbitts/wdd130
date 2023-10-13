@@ -6,6 +6,11 @@ fieldset {
    margin: auto;
 }
 
+h1{
+    text-align: center;
+
+}
+
 input {
     margin: 10px;
     background-color: rgb(182, 182, 182);
