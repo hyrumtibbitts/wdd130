@@ -73,6 +73,7 @@ a.visited {
 a {
     margin:auto;
 }
+
 h1 {
     position: absolute;
 }
@@ -85,4 +86,49 @@ img { display: block;
     width: 200px;
 }
 
+.form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.form-group {
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.radio-label {
+    font-weight: normal;
+    display: inline-block;
+    margin-right: 10px;
+}
+.checkbox-label {
+    font-weight: normal;
+}
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
 
+.sociallinks {
+    height: 10px;
+    }
