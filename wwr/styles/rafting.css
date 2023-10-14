@@ -112,14 +112,17 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 3px;
 }
+
 .radio-label {
     font-weight: normal;
     display: inline-block;
     margin-right: 10px;
 }
+
 .checkbox-label {
     font-weight: normal;
 }
+
 button[type="submit"] {
     padding: 10px 20px;
     background-color: #007BFF;
