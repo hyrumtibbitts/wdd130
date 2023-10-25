@@ -11,7 +11,7 @@ body {
 }
 
 header, .grid, footer {
-    max-width: 840px;
+    max-width: 100%;
     margin: 0 auto;
 }
 nav {
@@ -85,7 +85,7 @@ footer {
     margin: 10px auto;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 10px;
-    background-color: #bbbbbb;
+    background-color: #3dadd9;
 }
 
 footer p {
@@ -117,3 +117,14 @@ footer p {
 li {
     margin-bottom: 20px;
 }
+
+#home-grid { 
+    display:grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+
+img {
+    width: 100%;
+    height: auto;
+}
+

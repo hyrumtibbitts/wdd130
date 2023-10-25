@@ -19,7 +19,8 @@
 }
 
 .hero {
-    position: relative;
+    position:relative;
+    width: 90vw;
 }
 
 .hero img {
@@ -39,17 +40,24 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color:var(--secondary-color);
 
+
 }
 
 header {
-    padding: 50px;
+    padding: 5px;
     font-size:xx-large;
+    width: 100vw;
+}
+
+h2{
+    font-size: 5cap;
 }
 
 p {
     margin: auto;
     padding:5px;
     font-family: 'Oswald', sans-serif;
+    font-size: larger;
 }
 
 nav {
@@ -83,7 +91,12 @@ article {
 }
 
 img { display: block;
-    width: 200px;
+    padding: 10px;
+    width:50px;
+}
+.tripimage {
+    width: 1000px;
+
 }
 
 .form-container {
@@ -93,6 +106,7 @@ img { display: block;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
+    margin: 0px;
 }
 .form-group {
     margin-bottom: 15px;
@@ -133,5 +147,9 @@ button[type="submit"] {
 }
 
 .sociallinks {
-    height: 10px;
+    padding: 5px;
     }
+
+.submit {
+    border-color: #0F5257;
+}
