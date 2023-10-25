@@ -92,7 +92,7 @@ article {
 
 img { display: block;
     padding: 10px;
-    width:50px;
+    width: 500px;
 }
 .tripimage {
     width: 1000px;
@@ -146,8 +146,9 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-.sociallinks {
+.social {
     padding: 5px;
+    width: 30px;
     }
 
 .submit {
